@@ -1,1 +1,1 @@
-goncz.org
+www.goncz.org landing page
