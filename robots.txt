@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http:www.goncz.org/arcade/sitemap.xml
+Disallow: /arcade/search/
