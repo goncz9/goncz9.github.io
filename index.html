@@ -1,14 +1,17 @@
-<!DOCTYPE html><html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Robert Göncz - iOS Developer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
-    <link rel="stylesheet" href="index.css">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Robert Göncz - Senior iOS Developer</title>
+  <meta name="description" content="Experienced freelance iOS (iPhone/iPad), WatchOS (Apple Watch) and tvOS (Apple TV) app developer.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+  <link rel="stylesheet" href="index.css">
   <link rel="icon" href="https://avatars0.githubusercontent.com/u/1765556?v=4" type="image/png">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -21,39 +24,42 @@
     gtag('config', 'UA-151459512-1');
   </script>
 
-  </head>
+</head>
 
-  <body>
-    <div id="loading">
-      <div id="spinner"></div>
+<body>
+  <div id="loading">
+    <div id="spinner"></div>
+  </div>
+  <div id="profile">
+    <div id="profile_img" style="background: url(https://avatars0.githubusercontent.com/u/1765556?v=4) center;"></div>
+    <div id="username"><span style="display:block;">Robert Göncz</span>Senior iOS Developer</div>
+    <div id="userbio" style="display: block;">iOS | Swift | MVVM</div>
+    <div id="about">
+      <span style="display:block;"><i class="fas fa-envelope"></i> &nbsp; <a
+          href="mailto:robert@goncz.org">robert@goncz.org</a></span>
+      <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a
+          href="https://goncz.org">https://goncz.org</a></span>
+      <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp; <a
+          href="https://www.google.com/maps/place/Hungary/@47.3308903,17.4481279,6z/data=!4m5!3m4!1s0x4741837bdf37e4c3:0xc4290c1e1010!8m2!3d47.162494!4d19.5033041"
+          target="_blank">Hungary</a></span>
+      <div class="socials">
+        <span style="display:block;"><a href="https://www.facebook.com/goncz" target="_blank" class="socials"><i
+              class="fab fa-facebook"></i></a></span>
+        <span style="display:block;"><a href="https://www.linkedin.com/in/robertgoncz/" target="_blank"
+            class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+      </div>
     </div>
-    <div id="profile">
-      <div id="profile_img" style="background: url(https://avatars0.githubusercontent.com/u/1765556?v=4) center;"></div>
-      <div id="username"><span style="display:block;">Robert Göncz</span>iOS Developer</div>
-      <div id="userbio" style="display: block;">iOS | Swift | MVVM</div>
-      <div id="about">
-                <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
-                <span style="display:block;"><i class="fas fa-envelope"></i> &nbsp; <a href="mailto:robert@goncz.org">robert@goncz.org</a></span>
-                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https://goncz.org">https://goncz.org</a></span>
-                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp; <a href="https://www.google.com/maps/place/Hungary/@47.3308903,17.4481279,6z/data=!4m5!3m4!1s0x4741837bdf37e4c3:0xc4290c1e1010!8m2!3d47.162494!4d19.5033041" target="_blank">Hungary</a></span>
-                <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
-                <div class="socials">
-                <span style="display:none !important;"><a href="https://www.twitter.com/null" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
-                <span style="display:none !important;"><a href="https://www.dribbble.com/null" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span>
-                <span style="display:block;"><a href="https://www.facebook.com/goncz" target="_blank" class="socials"><i class="fab fa-facebook"></i></a></span>
-                <span style="display:block;"><a href="https://www.linkedin.com/in/robertgoncz/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
-                <span style="display:none !important;"><a href="https://www.medium.com/@null/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
-                </div>
-                </div>
-    </div>
-    <div id="display">
-      <div id="work">
-        <h1>My Apps</h1>
-        <div class="projects" id="work_section">
+  </div>
+  <div id="display">
+    <div id="work">
+      <h1>My Apps</h1>
+      <div class="projects" id="work_section">
         <a href="https://itunes.apple.com/app/id1450105816" target="_blank">
           <section>
             <span style="display:block; text-align: center;">
-              <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/04/4d/0c/044d0c9f-4d70-85d6-6735-8786f4718df4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/150x0w.png" style="border-radius: 30px;" />
+              <img
+                src="https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/04/4d/0c/044d0c9f-4d70-85d6-6735-8786f4718df4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/150x0w.png"
+                style="border-radius: 30px;" />
             </span>
             <div class="section_title">
               Bike GPS - Ride Tracker
@@ -71,36 +77,38 @@
             </div>
           </section>
         </a>
-        </div>
       </div>
     </div>
-    <script type="text/javascript">
-      setTimeout(function() {
-        document.getElementById("loading").classList.add("animated");
-        document.getElementById("loading").classList.add("fadeOut");
-        setTimeout(function() {
-          document.getElementById("loading").classList.remove("animated");
-          document.getElementById("loading").classList.remove("fadeOut");
-          document.getElementById("loading").style.display = "none";
-        }, 800);
-      }, 1500);
-    </script>
+  </div>
+  <script type="text/javascript">
+    setTimeout(function () {
+      document.getElementById("loading").classList.add("animated");
+      document.getElementById("loading").classList.add("fadeOut");
+      setTimeout(function () {
+        document.getElementById("loading").classList.remove("animated");
+        document.getElementById("loading").classList.remove("fadeOut");
+        document.getElementById("loading").style.display = "none";
+      }, 800);
+    }, 1500);
+  </script>
 
-    <script>
-      const magicProjectsGrid = new MagicGrid({
-        container: "#work_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
+  <script>
+    const magicProjectsGrid = new MagicGrid({
+      container: "#work_section",
+      animate: false,
+      gutter: 30, // default gutter size
+      static: true,
+      useMin: false,
+      maxColumns: 2,
+      useTransform: true
+    });
 
-      $("document").ready(() => {
-        magicProjectsGrid.listen();
-      });
-    </script>
-  
+    $("document").ready(() => {
+      magicProjectsGrid.listen();
+    });
+  </script>
 
-</body></html>
+
+</body>
+
+</html>
